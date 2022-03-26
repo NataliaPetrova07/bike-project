@@ -21,11 +21,6 @@ function displayData(bikes) {
     const templateEl = document.querySelector("template").content;
     const cloneEl = templateEl.cloneNode(true);
 
-    /*     console.log(
-      "hey",
-      bike._embedded["wp:featuredmedia"][0].media_details.sizes.medium
-        .source_url
-    ); */
     cloneEl.querySelector("img").src =
       bike._embedded[
         "wp:featuredmedia"
