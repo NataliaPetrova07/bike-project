@@ -29,11 +29,7 @@ h2 {
 .darkred {
   color: brown;
 }
-.logo {
-  width: 200px;
-  height: auto;
-  margin-bottom: 1rem;
-}
+
 header {
   margin-bottom: 2rem;
 }
@@ -107,4 +103,9 @@ a {
   color: brown;
   padding: 0.3rem;
   margin-top: 0.8rem;
+}
+img.logo {
+  width: 200px;
+  height: 100%;
+  margin-bottom: 1rem;
 }
